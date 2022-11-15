@@ -78,6 +78,44 @@ Greater than or equal to	x >= y
 Less than or equal to	x <= y
 
 
+## R Strings
+
+A string is surrounded by either single quotation marks, or double quotation marks:
+
+str <- "Hello"
+
+
+If you want the line breaks to be inserted at the same position as in the code, use the cat() function:
+
+cat(str)
+
+
+How to find the number of characters in a string?
+ 
+Use nchar() function
+ 
+How to combine two strings?
+ 
+Use the paste() function to merge/concatenate two strings:
+
+Example: paste(x, y)
+
+Escape characters in R:
+
+\\	Backslash
+
+\n	New Line
+
+\r	Carriage Return
+
+\t	Tab
+
+\b	Backspace
+
+
+
+
+
 
 
 
